@@ -37,12 +37,6 @@ function updateMousePos(evt) {
 }
 
 function keySet(keyEvent, witchCar, setTo){
-	// console.log('keyEvent');
-	// console.log(keyEvent);
-	// console.log('witchCar');
-	// console.log(witchCar);
-	// console.log('setTo');
-	// console.log(setTo);
 	if(keyEvent.keyCode == witchCar.controlKeyLeft) {
 		witchCar.keyHeld_TurnLeft = setTo;
 	}
